@@ -1,0 +1,11 @@
+export(dggamma,rggamma,ssd.binom,ssd.norm1KV,
+  binom1.2sided,binom1.1sided,binom2.2sided,binom2.1sided,
+  norm1KV.2sided,norm1KV.1sided,norm2KV.2sided,
+  norm1UV.2sided)
+  
+S3method(print,BAEssd)
+S3method(plot,BAEssd)
+S3method(summary,BAEssd)
+S3method(print,summary.BAEssd)
+
+import(mvtnorm)
